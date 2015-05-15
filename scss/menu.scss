@@ -1,0 +1,38 @@
+.menu {
+  margin-top: 35px;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  ul li {
+    font-size: 16px;
+    display: inline;
+    margin-left: -5px;
+  }
+
+  ul li a {
+    border-left: 1px solid $dark-creamy;
+    border-bottom: 2px solid $dark-creamy;
+    color: $black;
+    padding: 6px 12px;
+    background-color: $creamy;
+  }
+
+  ul li:first-child a {
+    border-left: none;
+  }
+
+  ul li a:hover {
+    color: $black;
+    background-color: $creamy;
+    border-bottom: 4px solid $dark-creamy;
+    padding-bottom: 4px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+.header {
+  background: $green;
+  width: 100%;
+  border-bottom: 5px solid $dark-green;
+}
+
+.header__title {
+  margin-left: 10px;
+}
+
+.header__form {
+  margin: 5px -20px 0;
+}
+
+.header--left {
+  display: inline-block;
+}
+
+.header--right {
+  display: inline-block;
+  float: right;
+  width: 250px;
+}

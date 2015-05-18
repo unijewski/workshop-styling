@@ -9,7 +9,12 @@
 }
 
 .header__form {
-  margin: 5px -20px 0;
+  margin-top: 15px;
+  width: 205px;
+
+  input {
+    margin: 2px;
+  }
 }
 
 .header--left {
@@ -19,5 +24,4 @@
 .header--right {
   display: inline-block;
   float: right;
-  width: 250px;
 }

@@ -1,0 +1,42 @@
+.footer {
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  ul li {
+    font-size: 16px;
+    display: inline;
+    margin-left: -5px;
+  }
+
+  ul li a {
+    background: $green;
+    border-bottom: 2px solid $dark-green;
+    border-left: 1px solid $dark-green;
+    color: $black;
+    padding: 9px 12px;
+  }
+
+  ul li:first-child a {
+    border-left: none;
+  }
+
+  ul li a:hover {
+    color: $black;
+  }
+}
+
+.footer--left {
+  display: inline-block;
+  float: left;
+}
+
+.footer--right {
+  display: inline-block;
+  float: right;
+}
+
+.footer__search {
+  margin-top: 20px;
+}

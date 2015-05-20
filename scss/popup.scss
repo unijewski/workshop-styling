@@ -1,0 +1,57 @@
+ .ui-dialog {
+  background: $white;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+  min-width: 700px;
+  margin-top: 140px;
+}
+
+.ui-dialog-titlebar {
+  background: $green;
+  border-bottom: 5px solid $dark-green;
+  padding: 20px 10px;
+}
+
+.ui-dialog-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.no-close, .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-front {
+  z-index: 100;
+}
+
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ui-widget-overlay {
+  background: $white 50% 50% repeat-x;
+  opacity: .9;
+  filter: Alpha(Opacity=90);
+}
+
+.popup {
+  padding: 20px;
+}
+
+.popup__row {
+  overflow: hidden;
+  background: $creamy;
+  border-bottom: 3px solid $dark-creamy;
+  padding: 15px 70px 20px;
+  margin-bottom: 20px;
+}
+
+.popup__button {
+  margin-left: 110px;
+}
